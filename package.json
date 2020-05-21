@@ -5,9 +5,22 @@
   "main": "index.html",
   "scripts": {
     "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "scss": "node-sass -o css/ css/"
+  },
+  "devDependencies": {
+    "lite-server": "^2.3.0",
+    "node-sass": "^4.14.1"
   },
   "author": "Pedro Sena",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "-": "0.0.1",
+    "bootstrap": "^4.4.1",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "popper": "^1.0.1"
+  }
 }
